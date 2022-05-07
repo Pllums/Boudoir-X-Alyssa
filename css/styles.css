@@ -17,9 +17,10 @@ body {
 .banner {
 	background-image: url(https://wallpaper.dog/large/11024468.jpg);
 	background-position: center;
-	height: 450px;
+	height: 300px;
 	width: 90%;
-	margin: 0 auto;
+	margin: auto;
+	margin-top: 100px;
 	position: relative;
 }
 
@@ -38,7 +39,7 @@ body {
 	font-family: "Pathway Gothic One", sans-serif;
 	font-size: 30pt;
 	text-align: center;
-	margin: 10px;
+	margin: 3%;
 }
 
 .cont3 {
@@ -81,24 +82,18 @@ body {
 	font-size: 40pt;
 	color: aliceblue;
 	position: absolute;
-	right: 700px;
-	top: 200px;
-}
-.email {
-	width: 20px;
-	height: auto;
-	position: absolute;
-	right: 50px;
-	top: 50px;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
 }
 
 .header {
 	font-family: "League Gothic", sans-serif;
 	text-align: center;
-	font-size: 80pt;
+	font-size: 6.4rem;
 	color: aliceblue;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -124,13 +119,31 @@ body {
 	height: auto;
 	position: relative;
 	left: 50px;
-	top: 25px;
+	/*top: 25px;*/
 }
 
-.navbar {
+/*.navbar {
 	text-align: center;
 	display: block;
 	position: relative;
 	bottom: 25px;
+	margin: auto;
+}*/
+
+.email {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+.nav-item {
+	font-family: "League Gothic", sans-serif;
+	font-size: 2rem;
+}
+
+.carousel {
+	width: 50%;
 	margin: auto;
 }

@@ -4,34 +4,52 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.css">
+		<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+		<link rel="stylesheet" href="./css/styles.css" />
 
 		<title>Boudoir X Alyssa Clone</title>
 	</head>
-	<body>
-		<img class="logoBlack" src="./images/logo-black.png" alt="company logo" />
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-body ">
+		<a href="" class="navbar-brand ms-10 my-auto"><img class="logoBlack" src="./images/logo-black.png" alt="company logo" /></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+		<ul class="navbar-nav mx-auto" >
+			<li class="nav-item">
+				<a class="nav-link" href="">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./contact.html">Contact/Investment</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="">Testimonials</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="">FAQ</a>
+			</li>
+		</ul>
 		<a href="https://www.instagram.com/boudoirxalyssa/" target="_blank">
 			<img
 				class="instalogo"
 				src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
 				alt=""
 			/>
-		</a>
-		<a href="mailto:alyssa@alyssaabdullahphotography.com"
-			><img
+			<a href="mailto:alyssa@alyssaabdullahphotography.com">
+				<img
 				class="email"
 				src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
 				alt=""
-		/></a>
-		<div class="navbar">
-			<nav>
-				<button>Home</button>
-				<button>Portfolio</button>
-				<button>Contact/Investment</button>
-				<button>Testimonials</button>
-				<button>FAQ</button>
-			</nav>
+			/>
+			</a>
 		</div>
+	</nav>
+	
+	</div>
 		<div class="banner">
 			<h1 class="header">BOOKING OCTOBER-DECEMBER!</h1>
 		</div>
@@ -84,6 +102,30 @@
 			<a class="cont3contact" href="./contact.html"
 				><button>Contact Me</button></a
 			>
+		</div>
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/3W8A7632.jpg" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/3W8A8460.jpg" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/3W8A8484.jpg" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/3W8A8722.jpg" class="d-block w-100" alt="">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
 		</div>
 	</body>
 </html>
