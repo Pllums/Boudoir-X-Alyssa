@@ -4,12 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!--<link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.css">-->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<link rel="stylesheet" href="./css/styles.css" />
-
 		<title>Boudoir X Alyssa Clone</title>
 	</head>
+
+	<!--Navigation bar-->
+
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-body ">
 		<a href="./index.html" class="navbar-brand ms-10 my-auto"><img class="logoBlack" src="./images/logo-black.png" alt="company logo" /></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +49,9 @@
 			</a>
 		</div>
 	</nav>
-	<body>
+	
+	<!--Announcments-->
+
 		<div class="banner">
 			<h1 class="header">BOOKING OCTOBER-DECEMBER!</h1>
 		</div>
@@ -60,48 +63,29 @@
 			<h1 class="padding-head">Boudoir Photography Grand Rapids, MI</h1>
 			<h2 class="tagline">Empowered women, empower women.</h2>
 		</div>
-		<div class="cont3">
-			<img class="cont3bg" src="./images/container3bg.jpg" />
-			<img
-				class="headshot"
-				src="./images/headshot.jpg"
-				alt="picture of Alyssa"
-			/>
-			<h2 class="cont3h2">Hey there, I'm Alyssa</h2>
-			<p class="cont3_p">
-				I am your new hype woman, nice to meet you. I'm a boudoir photographer
-				<br />
-				located in Grand Rapids, Michigan. I have quickly found that boudoir is
-				<br />
-				my calling. Right away I saw the empowerment and confidence it brought
-				<br />
-				the women I was working with. I started to appreciate that all bodies<br />
-				are different and still just as beautiful. My entire life I have<br />
-				struggled with body image and comparison to others, never finding what
-				I<br />
-				had to be good enough. Boudoir has given me a whole new view on that.<br />
-				Helping others feel beautiful enough, young enough, confident enough
-				and<br />
-				perfectly acceptable exactly where they are TODAY pushes me to take
-				that<br />
-				same advice. Every woman I have worked with has chosen boudoir for<br />
-				different reasons. Whether it be for their partner, celebrating a
-				mile<br />
-				stone, or helping them find their confidence. What ever the reason
-				may<br />
-				be I have seen a tremendous impact on how they view themselves, and I<br />
-				can't wait to help YOU. I look forward to working with you. If you
-				have<br />
-				any questions feel free to ask away over on my contact page. xoxo<br />
-				<br />
-				<br />
-				<br />
-				-Alyssa Abdullah
-			</p>
-			<a class="cont3contact" href="./contact.html"
-				><button>Contact Me</button></a
-			>
+
+		<!--Introduction Grid-->
+
+		<div class="row cont3">
+			<div class="col-lg-6 col-sm-12 mx-auto">
+				<h2 class="cont3h2">
+					Hey there, I'm Alyssa
+				</h2>
+				<pc class="cont3p">
+					I am your new hype woman, nice to meet you. I’m a boudoir photographer located in Grand Rapids, Michigan. I have quickly found that boudoir is my calling. Right away I saw the empowerment and confidence it brought the women I was working with. I started  to appreciate that all bodies are different and still just as beautiful. My entire life I have struggled with body image and comparison to others, never finding what I had to be good enough. Boudoir has given me a whole new view on that. Helping others feel beautiful enough, young enough, confident enough and perfectly acceptable exactly where they are TODAY  pushes me to take that same advice. Every woman I have worked with has chosen boudoir for different reasons. Whether it be for their partner, celebrating a mile stone, or helping them find their confidence. What ever the reason may be I have seen a tremendous impact on how they view themselves, and I can’t wait to help YOU. I look forward to working with you. If you have any questions feel free to ask away over on my contact page. xoxo
+					<br>
+					<br> -Alyssa Abdullah</p>
+			</div>
+			<div class="col-lg-6 col-sm-12 pl-2">
+				<img class="headshot" src="./images/headshot.jpg" alt="">
+			</div>
+			<div class="col-sm-12 cont3btn" href="contact.html">
+				<button type="button" class="btn btn-dark">Contact Me</button>
+			</div>
 		</div>
+
+		<!--Photo Carousel-->
+
 		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -125,6 +109,50 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
+		</div>
+
+		<!--Do the photoshoot Grid-->
+
+		<div class="row" id="port-banner">
+			<div class="col-sm-12">
+				<button type="button" class="btn btn-dark portbanbtn" href="">Portfolio</button>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 class="portbanh3">Life is short. Do the photoshoot.</h3>
+				</div>
+			</div>
+		</div>
+
+		<!--Single Review-->
+		<div class="row lone-review">
+			<img class="lone-review-img" src="./images/Sydney.jpg" alt="">
+			<h2 class="col-sm-12 lone-review-text">“She made me feel SO COMFORTABLE! I left feeling so confident and beautiful!”</h2>
+		</div>
+
+		<!--Testimonial Banner Grid-->
+		<div class="row" id="testimonial-banner">
+			<div class="col-sm-12">
+				<h2 class="testimonials-h2">Testimonials</h2>
+			</div>
+			<div class="col-sm-12">
+				<h3 class="testimonials-h3">Girl, you already have what it takes.</h3>
+			</div>
+			<div class="col-md-4 col-sm-12 testimonials">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, optio cupiditate omnis architecto reiciendis doloremque? A architecto vitae facere sed odit iusto impedit fuga fugit eius reprehenderit? Recusandae quia nisi porro. Laborum velit quos molestiae optio animi sequi incidunt! Neque quos minus dolores incidunt laboriosam, laborum nihil nam saepe. <strong>- quasi</strong></p>
+			</div>
+			<div class="col-md-4 col-sm-12 testimonials">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque corrupti id quam optio doloribus sapiente est delectus aliquid dolorum? Numquam praesentium, deserunt unde fuga nam, ullam est ducimus magni repudiandae cum ad ipsam nobis illo quam dignissimos reiciendis. Eos possimus molestiae sint illum atque facilis molestias maxime optio esse. <strong>- distinctio</strong></p>
+			</div>
+			<div class="col-md-4 col-sm-12 testimonials">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, id consequatur voluptatum modi nihil hic quidem. Obcaecati provident neque corporis! Maxime similique aspernatur, ipsam dolores aliquam deleniti, doloribus, vel esse sapiente nisi exercitationem. Est, pariatur! Laudantium excepturi blanditiis saepe nisi quas unde, tenetur, dicta odit vero consequatur tempora, praesentium. <br><strong>- necessitatibus</strong></p>
+			</div>
+			<div class="col-sm-12" href="">
+				<button type="button" class="btn btn-dark testimonials-btn">View Testimonials</button>
+			</div>
+			<div class="col-sm-12" href="contact.html">
+				<button type="button" class="btn btn-dark testimonials-cnt">Contact Me</button>
+			</div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>

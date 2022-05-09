@@ -42,25 +42,25 @@ body {
 	margin: 3%;
 }
 
-.cont3 {
-	position: relative;
+div.cont3 {
+	background-image: url(/Boudoir-X-Alyssa-Clone/images/container3bg.jpg);
+	background-position: center;
+	padding: 3%;
 }
 
 .cont3contact {
 	position: absolute;
 	width: 150px;
 	height: 50px;
-	right: 50%;
+	top: 85%;
 	left: 50%;
-	bottom: 125px;
+	transform: translate(-50%, -50%);
 }
+
 .cont3h2 {
 	font-family: "Pathway Gothic One", sans-serif;
-	font-size: 38pt;
 	color: rgb(255, 240, 240);
-	position: absolute;
-	top: 250px;
-	left: 1200px;
+	
 }
 .cont3bg {
 	width: 100%;
@@ -68,13 +68,16 @@ body {
 	object-fit: cover;
 }
 
-.cont3_p {
+.cont3p {
 	font-family: "Space Grotesk", sans-serif;
 	font-size: 20px;
+	line-height: 2px;
 	color: rgb(255, 255, 255);
-	position: absolute;
-	top: 400px;
-	left: 1200px;
+}
+
+.cont3btn{
+	text-align: center;
+	padding-top: 3%;
 }
 
 .cont1h2 {
@@ -92,19 +95,22 @@ body {
 	text-align: center;
 	font-size: 6.4rem;
 	color: aliceblue;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .headshot {
-	position: absolute;
-	right: 700px;
-	top: 10%;
-	width: 20%;
-	height: auto;
+	width: 65%;
+
 }
+
+.intro{
+	color: antiquewhite;
+	text-align: left;
+}
+
 
 .instalogo {
 	width: 20px;
@@ -119,16 +125,7 @@ body {
 	height: auto;
 	position: relative;
 	left: 50px;
-	/*top: 25px;*/
 }
-
-/*.navbar {
-	text-align: center;
-	display: block;
-	position: relative;
-	bottom: 25px;
-	margin: auto;
-}*/
 
 .email {
 	width: 20px;
@@ -145,5 +142,84 @@ body {
 
 .carousel {
 	width: 50%;
-	margin: auto;
+	margin: 50px auto;
+}
+
+.lone-review {
+	width: 90%;
+	margin: 0 auto 50px;
+	position: relative;
+}
+
+.lone-review-text {
+	color: aliceblue;
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+}
+
+.lone-review-img {
+	width: 100%;
+	height: 850px;
+	object-fit: cover;
+	object-position: 50% 30%;
+}
+
+.portbanh3 {
+	color: aliceblue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.portbanbtn {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.testimonials {
+	padding: 75px;
+	color: antiquewhite;
+}
+
+.testimonials-h2 {
+	padding-top: 50px;
+	color: aliceblue;
+}
+
+.testimonials-h3 {
+	color: aliceblue;
+	font-size: 1.5rem;
+}
+
+.testimonials-btn {
+	margin: 10px;
+}
+
+.testimonials-cnt {
+	margin: 10px;
+}
+
+#port-banner {
+	background-image: url(https://wallpaper.dog/large/11024468.jpg);
+	background-position: center;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	margin: 0 auto 50px;
+}
+
+#testimonial-banner {
+	background-image: url(https://wallpaper.dog/large/11024468.jpg);
+	background-position: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
 }
