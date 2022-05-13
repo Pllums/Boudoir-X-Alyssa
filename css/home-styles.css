@@ -1,4 +1,4 @@
-/**Plain Selectors**/
+/**Plain Selectors for every page**/
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
@@ -12,8 +12,6 @@ body {
 	background-color: rgb(255, 255, 255);
 }
 
-/**Class Selectors**/
-
 .banner {
 	background-image: url(https://wallpaper.dog/large/11024468.jpg);
 	background-position: center;
@@ -23,6 +21,16 @@ body {
 	margin-top: 100px;
 	position: relative;
 }
+.nav-item {
+	font-family: "League Gothic", sans-serif;
+	font-size: 2rem;
+}
+
+.collapse {
+	text-align: right;
+}
+
+/**Class Selectors**/
 
 .cont1bg {
 	width: 100%; /*width of page*/
@@ -40,10 +48,11 @@ body {
 	font-size: 30pt;
 	text-align: center;
 	margin: 3%;
+	line-height: 2;
 }
 
-div.cont3 {
-	background-image: url(/Boudoir-X-Alyssa-Clone/images/container3bg.jpg);
+.cont3 {
+	background-image: url(https://wallpaper.dog/large/17011866.jpg);
 	background-position: center;
 	padding: 3%;
 }
@@ -60,7 +69,6 @@ div.cont3 {
 .cont3h2 {
 	font-family: "Pathway Gothic One", sans-serif;
 	color: rgb(255, 240, 240);
-	
 }
 .cont3bg {
 	width: 100%;
@@ -71,11 +79,12 @@ div.cont3 {
 .cont3p {
 	font-family: "Space Grotesk", sans-serif;
 	font-size: 20px;
-	line-height: 2px;
+	font-weight: 400;
+	line-height: 2;
 	color: rgb(255, 255, 255);
 }
 
-.cont3btn{
+.cont3btn {
 	text-align: center;
 	padding-top: 3%;
 }
@@ -102,15 +111,16 @@ div.cont3 {
 }
 
 .headshot {
-	width: 65%;
-
+	width: 57%;
+	rotate: 45deg;
 }
 
-.intro{
+.intro {
 	color: antiquewhite;
 	text-align: left;
+	width: 80%;
+	padding: 10% 8% 10% 30%;
 }
-
 
 .instalogo {
 	width: 20px;
@@ -133,11 +143,6 @@ div.cont3 {
 	position: absolute;
 	right: 50px;
 	top: 50px;
-}
-
-.nav-item {
-	font-family: "League Gothic", sans-serif;
-	font-size: 2rem;
 }
 
 .carousel {
