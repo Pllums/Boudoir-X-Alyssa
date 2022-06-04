@@ -1,0 +1,22 @@
+{
+  "name": "boudoir-x-alyssa-clone",
+  "version": "1.0.0",
+  "description": "A cloning project of the boudoirxalyssa.com website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pllums/Boudoir-X-Alyssa-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pllums/Boudoir-X-Alyssa-Clone/issues"
+  },
+  "homepage": "https://github.com/Pllums/Boudoir-X-Alyssa-Clone#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

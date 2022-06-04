@@ -1,0 +1,82 @@
+/**Plain Selectors for every page**/
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.banner {
+	background-image: url(https://wallpaper.dog/large/11024468.jpg);
+	background-position: center;
+	height: 300px;
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+}
+.header {
+	font-family: "League Gothic", sans-serif;
+	text-align: center;
+	font-size: 6.4rem;
+	color: aliceblue;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav-item {
+	font-family: "League Gothic", sans-serif;
+	font-size: 2rem;
+}
+
+.instalogo {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	right: 100px;
+	top: 50px;
+}
+.logoBlack {
+	width: 150px;
+	height: auto;
+	position: relative;
+	left: 50px;
+}
+
+.email {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+.form-signin {
+	max-width: 750px;
+	padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: 5px;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: 5px;
+}
+
+textarea {
+	margin-bottom: 5px;
+}
