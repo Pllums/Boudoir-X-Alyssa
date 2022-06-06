@@ -16,29 +16,54 @@
 
 	<!--Navigation bar-->
 	<body>
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-body">
-			<a href="index.html" class="navbar-brand"
-				><img class="logoBlack" src="/images/logo-black.png" alt="company logo"
-			/></a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-bs-toggle="collapse"
-				data-bs-target="#navbarTogglerDemo03"
-				aria-controls="navbarTogglerDemo03"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
+		<nav
+			class="navbar fixed-top navbar-light navbar-expand-md bg-body justify-content-center"
+		>
 			<div class="container-fluid">
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-					<ul class="navbar-nav navlist mx-auto">
+				<a href="/" class="navbar-brand w-50 mx-auto"
+					><img class="logoBlack" src="/images/logo-black.png" alt=""
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapsingNavbar3"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+					<ul class="navbar-nav w-100 justify-content-center">
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="portfolio.html">Portfolio</a>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link"
+								id="navbarScrollingDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+								href=""
+								>Portfolio</a
+							>
+							<ul
+								class="dropdown-menu dropdown-menu-right"
+								aria-labelledby="navbarScrollingDropDown"
+							>
+								<li>
+									<a href="boudoir.html" class="dropdown-item">Boudoir</a>
+								</li>
+								<li>
+									<a href="bridal-boudoir.html" class="dropdown-item"
+										>Bridal Boudoir</a
+									>
+								</li>
+								<li>
+									<a href="couples-boudoir.html" class="dropdown-item"
+										>Couples Boudoir</a
+									>
+								</li>
+							</ul>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html">Contact/Investment</a>
@@ -50,20 +75,31 @@
 							<a class="nav-link" href="">FAQ</a>
 						</li>
 					</ul>
+					<ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="https://www.instagram.com/boudoirxalyssa/"
+								target="_blank"
+								><img
+									class="instalogo"
+									src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+									alt=""
+							/></a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="mailto:alyssa@alyssaabdullahphotography.com"
+								target="_blank"
+								><img
+									class="email"
+									src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
+									alt=""
+							/></a>
+						</li>
+					</ul>
 				</div>
-				<a href="https://www.instagram.com/boudoirxalyssa/" target="_blank">
-			<img
-				class="instalogo"
-				src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
-				alt=""
-			/>
-			<a href="mailto:alyssa@alyssaabdullahphotography.com">
-				<img
-				class="email"
-				src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
-				alt=""
-			/>
-			</a>
 			</div>
 		</nav>
 
@@ -167,17 +203,17 @@
 
 		<!--Do the photoshoot Grid-->
 
-		<div class="row" id="port-banner">
+		<div class="row" id="cont4">
 			<div class="col-sm-12">
 				<a href="portfolio.html">
-					<button type="submit" class="btn btn-dark portbanbtn" href="">
+					<button type="submit" class="btn btn-dark portfoliobtn" href="">
 						Portfolio
 					</button>
 				</a>
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<h3 class="portbanh3">Life is short. Do the photoshoot.</h3>
+					<h3 class="cont4h3">Life is short. Do the photoshoot.</h3>
 				</div>
 			</div>
 		</div>
@@ -201,33 +237,34 @@
 			</div>
 			<div class="col-md-4 col-sm-12 testimonials">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-					optio cupiditate omnis architecto reiciendis doloremque? A architecto
-					vitae facere sed odit iusto impedit fuga fugit eius reprehenderit?
-					Recusandae quia nisi porro. Laborum velit quos molestiae optio animi
-					sequi incidunt! Neque quos minus dolores incidunt laboriosam, laborum
-					nihil nam saepe. <strong>- quasi</strong>
+					“Alyssa does AMAZING work! Not only did my pictures turn our fabulous
+					but her team, her energy and her vision are extraordinary. I was so
+					nervous walking into the studio but she made me feel so comfortable.
+					Will definitely do it again!”
+					<br />
+					<strong>- Abbey</strong>
 				</p>
 			</div>
 			<div class="col-md-4 col-sm-12 testimonials">
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
-					corrupti id quam optio doloribus sapiente est delectus aliquid
-					dolorum? Numquam praesentium, deserunt unde fuga nam, ullam est
-					ducimus magni repudiandae cum ad ipsam nobis illo quam dignissimos
-					reiciendis. Eos possimus molestiae sint illum atque facilis molestias
-					maxime optio esse. <strong>- distinctio</strong>
+					“I just loved the experience I had doing a boudoir shoot with Alyssa.
+					She was so kind and helpful at explaining how to do the poses! She was
+					great at making it a comfortable and not awkward experience! She is
+					professional and AMAZING at what she does. If you’re thinking about
+					booking a shoot, JUST DO IT! You will be so happy to see yourself in a
+					new light! Book with Alyssa and your pictures will be so hot”
+					<br />
+					<strong>- Melany</strong>
 				</p>
 			</div>
 			<div class="col-md-4 col-sm-12 testimonials">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, id
-					consequatur voluptatum modi nihil hic quidem. Obcaecati provident
-					neque corporis! Maxime similique aspernatur, ipsam dolores aliquam
-					deleniti, doloribus, vel esse sapiente nisi exercitationem. Est,
-					pariatur! Laudantium excepturi blanditiis saepe nisi quas unde,
-					tenetur, dicta odit vero consequatur tempora, praesentium.
-					<br /><strong>- necessitatibus</strong>
+					“Absolutely love her!! She made me feel so comfortable and relaxed. I
+					had so much fun doing this and it gave me so much of my confidence in
+					my body back! If you’re looking for a boudoir photographer, stop
+					looking you’ve found the best.”
+
+					<br /><strong>- Miss O</strong>
 				</p>
 			</div>
 			<div class="col-sm-12" href="">
