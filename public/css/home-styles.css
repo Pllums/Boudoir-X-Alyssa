@@ -12,6 +12,29 @@ body {
 	background-color: rgb(255, 255, 255);
 }
 
+/* Announcement Styling */
+
+.banner {
+	background-image: url(https://wallpaper.dog/large/11024468.jpg);
+	background-position: center;
+	height: 300px;
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+}
+
+.header {
+	font-family: "League Gothic", sans-serif;
+	text-align: center;
+	font-size: 6.4rem;
+	color: aliceblue;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 /* Navbar Styling */
 .dropdown-menu {
 	text-align: center;
@@ -56,28 +79,23 @@ body {
 		margin-top: 0;
 	}
 }
-/* Announcement Styling */
 
-.banner {
-	background-image: url(https://wallpaper.dog/large/11024468.jpg);
-	background-position: center;
-	height: 300px;
-	width: 90%;
-	margin: auto;
-	margin-top: 100px;
-	position: relative;
-}
-
-.header {
-	font-family: "League Gothic", sans-serif;
+/* Footer Styling */
+footer {
+	padding-top: 20px;
 	text-align: center;
-	font-size: 6.4rem;
-	color: aliceblue;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
+
+.footer-h4 {
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+.footer-icon {
+	margin: 20px, 0;
+	padding: 20px;
+}
+
+/* Page Specific Styling */
 
 /*First Container Styling*/
 
@@ -149,7 +167,6 @@ body {
 
 .headshot {
 	width: 57%;
-	rotate: 45deg;
 }
 
 .cont3btn {
@@ -157,6 +174,11 @@ body {
 	padding-top: 3%;
 }
 
+@media (max-width: 768px) {
+	.intro {
+		padding: unset;
+	}
+}
 /* Photo Carousel Styling */
 .carousel {
 	width: 50%;

@@ -23,14 +23,17 @@ app.post("/contact.html", function (req, res) {
 	var lName = req.body.lastName;
 	var lastName = lName.slice(0, 1).toUpperCase() + lName.slice(1).toLowerCase();
 	var email = req.body.email;
+	var phoneNumber = req.body.phoneNumber;
 	const subscribingUser = {
 		firstName: firstName,
 		lastName: lastName,
 		email: email,
+		phoneNumber: phoneNumber,
 	};
 	const run = async () => {
 		const response = await client.lists.addListMember("9efa3bb455", {
 			email_address: subscribingUser.email,
+			phone_number: subscribingUser.phoneNumber,
 			status: "subscribed",
 			merge_fields: {
 				FNAME: subscribingUser.firstName,

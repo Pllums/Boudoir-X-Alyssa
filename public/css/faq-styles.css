@@ -98,101 +98,59 @@ footer {
 
 /* Page Specific Styling */
 
-/* Portfolio styling */
-.left-div {
-	padding-left: 20px;
-}
-.middle-div {
-	padding: 0;
-}
-
-.right-div {
-	padding-right: 20px;
+/* FAQ Section styling */
+.answer {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 1.75rem;
+	text-align: left;
 }
 
-.portfolio-img {
-	cursor: pointer;
-	transition: 0.3s;
-}
-.portfolio-img:hover {
-	opacity: 0.7;
-}
-
-/* Modal Styling */
-
-/* The Modal (background) */
-.modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	padding-top: 15%; /* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0, 0, 0); /* Fallback color */
-	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (Image) */
-.modal-content {
-	margin: auto;
-	display: block;
-	width: 80%;
-	max-width: 700px;
-}
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-	margin: auto;
-	display: block;
-	width: 80%;
-	max-width: 700px;
+.faq-container {
+	font-family: "League Gothic", sans-serif;
+	position: relative;
 	text-align: center;
-	color: #ccc;
-	padding: 10px 0;
-	height: 150px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
-/* Add Animation - Zoom in the Modal */
-.modal-content,
-#caption {
-	animation-name: zoom;
-	animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-	from {
-		transform: scale(0);
-	}
-	to {
-		transform: scale(1);
-	}
-}
-
-/* The Close Button */
-.close {
+.faq-container::before {
+	background-image: url(https://pixelz.cc/wp-content/uploads/2018/08/sand-texture-uhd-4k-wallpaper.jpg);
+	content: "";
 	position: absolute;
-	top: 10%;
-	right: 5%;
-	color: #f1f1f1;
-	font-size: 40px;
-	font-weight: bold;
-	transition: 0.3s;
-	z-index: 2;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.35;
 }
 
-.close:hover,
-.close:focus {
-	color: #bbb;
-	text-decoration: none;
-	cursor: pointer;
+.faq-h2 {
+	position: relative;
+	top: 200px;
+	font-size: 4rem;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-	.modal-content {
-		width: 100%;
+.row {
+	position: relative;
+}
+
+.question {
+	padding-left: 5%;
+	font-size: 3rem;
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+	.faq-h2 {
+		position: unset;
+	}
+	.question,
+	.answer {
+		text-align: center;
 	}
 }

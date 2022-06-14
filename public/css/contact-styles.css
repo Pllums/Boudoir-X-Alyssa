@@ -11,6 +11,18 @@ body {
 	border: 0;
 	background-color: rgb(255, 255, 255);
 }
+
+p {
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "League Gothic", sans-serif;
+	position: relative;
+}
 /* Announcement Styling */
 
 .banner {
@@ -21,6 +33,7 @@ body {
 	margin: auto;
 	margin-top: 100px;
 	position: relative;
+	margin-bottom: 200px;
 }
 .header {
 	font-family: "League Gothic", sans-serif;
@@ -78,11 +91,199 @@ body {
 		margin-top: 0;
 	}
 }
+
+/* Footer Styling */
+footer {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.footer-h4 {
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+.footer-icon {
+	margin: 20px, 0;
+	padding: 20px;
+}
+
+/* Page Specific Styling */
+
+/* Shoot Container Styling */
+
+.shoot-container {
+	font-family: "League Gothic", sans-serif;
+	position: relative;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.shoot-container::before {
+	background-image: url(https://pixelz.cc/wp-content/uploads/2018/08/sand-texture-uhd-4k-wallpaper.jpg);
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.35;
+}
+
+.shoot-h2 {
+	font-size: 4rem;
+	position: relative;
+	top: -20px;
+}
+
+.shoot-h3 {
+	position: relative;
+	font-size: 3rem;
+}
+
+.shoot-text {
+	position: relative;
+	display: inline-block;
+	font-size: 1.5rem;
+}
+
+/* Collection Banner Styling */
+
+.collect-container {
+	width: 100%;
+	position: relative;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 2;
+	margin-bottom: 100px;
+}
+
+.collect-h2 {
+	padding-top: 80px;
+	padding-bottom: 20px;
+	font-size: 5rem;
+}
+
+.collect-p-large {
+	font-size: 1.5rem;
+}
+.collect-p-small {
+	display: inline-block;
+	font-size: 1.2rem;
+	padding-bottom: 80px;
+}
+
+/* Experience Styling */
+.experience-container {
+	position: relative;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.experience-container::before {
+	background-image: url(https://pixelz.cc/wp-content/uploads/2018/08/sand-texture-uhd-4k-wallpaper.jpg);
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.25;
+}
+
+.experience-h2 {
+	font-size: 4rem;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+
+.experience-h3 {
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
+.experience-p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+/* CTA Styling */
+
+.cta-container {
+	width: 100%;
+	position: relative;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 2;
+	margin-bottom: 100px;
+}
+
+.cta-h2 {
+	font-size: 2.6rem;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	line-height: 2;
+}
+
 /* Form Styling */
+
+.form-container {
+	position: relative;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.form-container::before {
+	background-image: url(https://pixelz.cc/wp-content/uploads/2018/08/sand-texture-uhd-4k-wallpaper.jpg);
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.35;
+}
+
+.form-h2 {
+	font-family: "League Gothic", sans-serif;
+	font-size: 4rem;
+	position: relative;
+	top: -40px;
+}
+
+.form-p {
+	position: relative;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+.form-p-bold {
+	position: relative;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
 .form-signin {
-	max-width: 750px;
+	max-width: 1000px;
 	padding: 15px;
 	text-align: center;
+	position: relative;
 }
 
 .form-signin .form-floating:focus-within {
@@ -97,6 +298,10 @@ body {
 	margin-bottom: 5px;
 }
 
-textarea {
+.form-signin select {
 	margin-bottom: 5px;
+}
+
+textarea {
+	margin-bottom: 50px;
 }
