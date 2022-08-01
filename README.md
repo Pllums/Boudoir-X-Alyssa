@@ -1,2 +1,2 @@
-# Boudoir-X-Alyssa-Clone
-A cloning project of the boudoirxalyssa.com website.
+# Boudoir-X-Alyss
+A website build for Boudoir X Alyssa
